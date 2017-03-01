@@ -5,6 +5,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Salary Info</title>
+        <link rel="stylesheet" type="text/css" href="salaryCalcCSS.css"/>
     </head>
     
     <%
@@ -52,9 +53,12 @@
     %>
     
     <body>
-        <h1>Salary Info</h1>
+        <div class="resultscss"
+            <h3 align="center">Salary Info</h3>
+            
+            <hr width="90%" color="white">
         
-        <table>
+            <table>
             <tbody>
                 <tr>
                     <td>Total Hours Worked:</td>
@@ -110,7 +114,8 @@
                     <td>Net Pay:</td>
                     <td><%= netPay %></td>
                 </tr>
-            </tbody>
-        </table>
+                </tbody>
+            </table>
+        </div>
     </body>
 </html>
